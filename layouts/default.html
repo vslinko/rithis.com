@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <% if @item[:title] %>
+    <title>Студия Ритхис — <%= @item[:title] %></title>
+    <% else %>
+    <title>Студия Ритхис</title>
+    <% end %>
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oranienbaum">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <% if @item[:mainpage] %>
+      <h1>Студия Ритхис</h1>
+      <% else %>
+      <h1><a href="/">Студия Ритхис</a></h1>
+      <% end %>
+
+      <%= render 'hr' %>
+      <%= yield %>
+      <%= render 'hr' %>
+
+      <p class="left">Просто свяжитесь с нами:</p>
+      <ul class="left">
+        <li><i class="icon-envelope-alt"></i> <a href="mailto:info@rithis.com">info@rithis.com</a></li>
+        <li><i class="icon-phone"></i> +7 495 660-39-20</li>
+      </ul>
+
+      <hr>
+      <ul class="left">
+        <% unless @item[:job] %>
+        <li><i class="icon-trophy"></i> <a href="/job/">Вакансии</a></li>
+        <% end %>
+        <li><i class="icon-briefcase"></i> <a href="https://elba.kontur.ru/card/rithis" target="_blank">Реквизитка</a></li>
+        <li><i class="icon-github"></i> <a href="https://github.com/rithis" target="_blank">GitHub</a></li>
+      </ul>
+
+      <hr>
+      <p id="footer">&copy; 2012 ООО Студия &laquo;Ритхис&raquo;</p>
+    </div>
+    <%= render 'counters' %>
+  </body>
+</html>

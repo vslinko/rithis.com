@@ -1,0 +1,17 @@
+compile '*' do
+  if item[:extension] == 'md'
+    filter :erb
+    filter :kramdown
+    layout 'default'
+  end
+end
+
+route '*' do
+  if item[:extension] == 'md'
+    item.identifier + 'index.html'
+  else
+    item.identifier.chop + '.' + item[:extension]
+  end
+end
+
+layout '*', :erb

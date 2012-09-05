@@ -1,0 +1,7 @@
+deploy:
+    public:
+        kind: rsync
+        dst: "www-data@rithis.com:/var/www/rithis.com"
+watcher:
+    dirs_to_watch: ['content', 'layouts', 'lib']
+    files_to_watch: ['config.yaml', 'Rules']

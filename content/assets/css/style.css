@@ -1,0 +1,102 @@
+#footer {
+    margin: 50px 0;
+    font-size: 80%;
+}
+
+body {
+    font: 110% "Oranienbaum";
+    text-align: center;
+    color: #2e3436;
+    background: url("/assets/images/bgnoise.gif");
+}
+
+h1 {
+    margin: 50px 0 100px;
+    font-size: 370%;
+    font-weight: normal;
+    letter-spacing: 3pt;
+    text-transform: uppercase;
+    color: #555753;
+}
+
+h1:before, h1:after {
+    content: "~";
+}
+
+h1 a, h1 a:hover {
+    color: #555753;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 460%;
+    font-weight: normal;
+    line-height: 1.1;
+}
+
+h3 {
+    margin: 30px 0 10px;
+    font-size: 170%;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 130%;
+    font-weight: normal;
+}
+
+hr {
+    width: 200px;
+    margin: 40px auto;
+    border-top-color: #d3d7cf;
+    border-bottom-color: #eeeeec;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin: 10px 0;
+}
+
+blockquote {
+    margin: 50px 0;
+    font-size: 170%;
+    color: #888a85;
+}
+
+i {
+    margin-right: 7px;
+    position: relative;
+    top: 2px;
+}
+
+.icon-envelope-alt {
+    color: #eeeeec;
+    text-shadow: 0px 0px 3px #2e3436;
+}
+
+.icon-phone {
+    color: #a40000;
+    text-shadow: 0px 0px 2px #2e3436;
+}
+
+.icon-briefcase {
+    color: #8f5902;
+}
+
+.icon-trophy {
+    color: #fce94f;
+    text-shadow: 0px 0px 4px #2e3436;
+    font-size: 23px;
+    top: 5px;
+    right: 4px;
+    margin: 0;
+}
+
+.left {
+    text-align: left;
+    width: 200px;
+    margin: 0 auto;
+}
