@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
 
     <% if @item[:title] %>
     <title>Студия Ритхис — <%= @item[:title] %></title>
@@ -11,8 +11,9 @@
     <title>Студия Ритхис</title>
     <% end %>
 
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oranienbaum">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oranienbaum&subset=latin,cyrillic">
     <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/vendor/bootstrap/css/bootstrap-responsive.min.css">
     <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
   </head>
