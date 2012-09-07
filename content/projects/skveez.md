@@ -1,13 +1,19 @@
+---
+title: skveez.com
+---
+
 ## skveez.com
 
-### социальная сеть с интегрированным <nobr>интернет-магазином</nobr>
+### социальная сеть с&nbsp;интегрированным <nobr>интернет-магазином</nobr>
+
+Задача: реализовать проект и&nbsp;сверстать предоставленные <nobr>дизайн-макеты</nobr>
 
 ![](/projects/skveez/main.png)
 
-### программирование и верстка
+----
 
 ![](/projects/skveez/movie.png)
 
-### на основе предоставленного дизайна
+----
 
-![](/projects/skveez/shop.png)
+![](/projects/skveez/profile.png)
