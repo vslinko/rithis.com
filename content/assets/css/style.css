@@ -110,6 +110,15 @@ i {
     margin: 0 auto;
 }
 
+.projects {
+    text-align: center;
+}
+
+.projects div {
+    margin: 25px;
+    display: inline-block;
+}
+
 @media (min-width: 1200px) {
     body {
         font-size: 130%;
