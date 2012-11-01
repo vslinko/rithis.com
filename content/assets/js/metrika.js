@@ -12,4 +12,5 @@
 
     addGoal('a[href=/task.pdf]', 'task.pdf');
     addGoal('a[href=mailto:info@rithis.com]', 'info@rithis.com');
+    addGoal('a[href=mailto:hr@rithis.com]', 'hr@rithis.com');
 })();
