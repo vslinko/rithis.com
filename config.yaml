@@ -1,5 +1,5 @@
 deploy:
-    public:
+    default:
         kind: rsync
         dst: "www-data@rithis.com:/var/www/rithis.com"
 watcher:
