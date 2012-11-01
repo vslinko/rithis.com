@@ -104,6 +104,10 @@ i {
     margin: 0;
 }
 
+.icon-bullhorn {
+    color: #204a87;
+}
+
 .left {
     text-align: left;
     width: 200px;
