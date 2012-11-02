@@ -108,6 +108,14 @@ i {
     color: #204a87;
 }
 
+.icon-certificate {
+    color: #fcaf3e;
+    font-size: 23px;
+    top: 5px;
+    right: 4px;
+    margin: 0;
+}
+
 .left {
     text-align: left;
     width: 200px;
