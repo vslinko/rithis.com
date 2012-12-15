@@ -6,22 +6,28 @@ title: Что мы знаем?
 
 ### Серверная разработка
 
-* [PHP 5.3+](http://php.net) 
+* [JavaScript](http://www.ecmascript.org)
+* [Node.js](http://nodejs.org)
+* [PHP 5.3+](http://php.net)
 * [Symfony2](http://symfony.com) 
 * [Doctrine ORM/ODM/DBAL](http://www.doctrine-project.org) 
 * [Silex](http://silex.sensiolabs.org)
 * [Twig](http://twig.sensiolabs.org)
 * [Composer](http://getcomposer.org)
 * [PHPUnit](https://github.com/sebastianbergmann/phpunit)
-* [JavaScript](http://www.ecmascript.org)
-* [CoffeeScript](http://coffeescript.org)
 * [Git](http://git-scm.com)
 * [nanoc](http://nanoc.stoneship.org)
 
 ### Клиентская разработка
 
 * [jQuery](http://jquery.com) 
-* [LESS](http://lesscss.org) 
+* [AngularJS](http://angularjs.org)
+* [Backbone.js](http://backbonejs.org)
+* [Socket.IO](http://socket.io)
+* [Yeoman](http://yeoman.io)
+* [SASS](http://sass-lang.com)
+* [Compass](http://compass-style.org)
+* [LESS](http://lesscss.org)
 * [Bootstrap](http://twitter.github.com/bootstrap) 
 * [HTML5](http://www.w3.org/TR/html5/) 
 * [CSS3](http://www.w3.org/Style/CSS/) 
@@ -39,7 +45,8 @@ title: Что мы знаем?
 
 * [MySQL](http://www.mysql.com) 
 * [MongoDB](http://www.mongodb.org) 
-* [Memcached](http://memcached.org) 
+* [Memcached](http://memcached.org)
+* [Redis](http://redis.io)
 
 ### Continuous Integration и Deployment 
 
