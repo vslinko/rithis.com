@@ -1,8 +1,8 @@
 ---
-title: avia.pegast.ru
+title: aviator.pegast.su
 ---
 
-## avia.pegast.ru
+## aviator.pegast.su
 
 ### система поиска и&nbsp;бронирования авиабилетов для&nbsp;агентств и&nbsp;частных&nbsp;лиц
 
